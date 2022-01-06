@@ -61,7 +61,7 @@ function AvancarLorelei() {
 function VsLorelei(ataque) {
   var ataque = prompt("Agua ou Aço");
   if (ataque == "Aço") {
-    return (location = "./Vitoria.html");
+    return (location = "./vitoria.html");
   } else if (ataque == "Agua") {
     return (location = "./gameover_lorelei.html");
   } else {
