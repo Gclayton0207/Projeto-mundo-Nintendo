@@ -41,7 +41,7 @@ function AvancarWhitney() {
 function VsWhitney(ataque) {
   var ataque = prompt("Fogo ou Lutador");
   if (ataque == "Lutador") {
-    return (location = "./Vitoria_Whitney.html");
+    return (location = "./Vitoria_whitney.html");
   } else if (ataque == "Fogo") {
     return (location = "./gameover_whitney.html");
   } else {
