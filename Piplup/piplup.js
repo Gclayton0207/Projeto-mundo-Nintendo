@@ -21,7 +21,7 @@ function AvancarValerie() {
 function VsValerie(ataque) {
   var ataque = prompt("Agua ou Aço");
   if (ataque == "Aço") {
-    return (location = "./Vitoria_Valerie.html");
+    return (location = "./Vitoria_valerie.html");
   } else if (ataque == "Agua") {
     return (location = "./gameover_valerie.html");
   } else {
