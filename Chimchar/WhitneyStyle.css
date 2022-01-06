@@ -125,7 +125,7 @@ main > p{
     display: block;
     width: 280px;
     height: 150px;  
-    margin: 0 50%;
+    margin: 0 auto;
     font-size: 35px;
     color: white;
     border-radius: 5px;
@@ -135,7 +135,7 @@ main > p{
 }
 .botaoParabens{
     display:block;
-    margin: 0 50%;
+    margin: 0 auto;
     width: 280px;
     height: 180px;  
     font-size: 35px;
