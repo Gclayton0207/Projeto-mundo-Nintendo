@@ -21,7 +21,7 @@ function AvancarViola() {
 function VsViola(ataque) {
   var ataque = prompt("Fogo ou Lutador");
   if (ataque == "Fogo") {
-    return (location = "./vitoria_viola.html");
+    return (location = "./Vitoria_viola.html");
   } else if (ataque == "Lutador") {
     return (location = "./gameover_viola.html");
   } else {
