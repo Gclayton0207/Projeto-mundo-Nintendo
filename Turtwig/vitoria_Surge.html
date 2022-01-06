@@ -1,94 +1,87 @@
 <!DOCTYPE html5>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/x-icon" href="..\imagens\icone.ico" />
-    <link rel="stylesheet" href="../reset.css" />
-    <link rel="stylesheet" href="./SurgeStyle.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
-      rel="stylesheet"
-    />
-    <title>Vitoria !</title>
-  </head>
-  <body>
-    <header>
-      <img src="..\imagens\Mundo nintendo.png" alt="logo mundo Nintendo" />
-    </header>
-    <script src="./turtwig.js"></script>
 
-    <main class="container">
-      <p>Ataque terrestre é super efetivo,contra eletrico</p>
-      <p>
-        Pikachu esta fora de combate, Turtwig venceu com isso ganhou 3200 pontos
-        de experiencia
-      </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/x-icon" href="..\imagens\icone.ico" />
+  <link rel="stylesheet" href="../reset.css" />
+  <link rel="stylesheet" href="./SurgeStyle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet" />
+  <title>Vitoria !</title>
+</head>
 
-      <ul class="batalha">
-        <li>
-          <br />
-          <img id="turtwig" src="..\imagens\turtwig.png" />
-          <div class="textoTurtwig">
-            <p>Nome: Turtwig</p>
-            <p>Tipo: Planta e Terrestre</p>
-            <p>Level: 10</p>
-            <p>HP: 25/50</p>
-            <div class="barraDeHPTurtwigWin"></div>
-          </div>
-          <br />
-        </li>
-        <li>
-          <br />
-          <img id="Pikachu" src=".\imagens\pikachu_derrotado.png" />
-          <div class="textoPikachu">
-            <p>Nome: Pikachu</p>
-            <p>Tipo: Eletrico</p>
-            <p>Level: 10</p>
-            <p>HP: 0/45</p>
-            <div class="barraDeHPPikachuLose"></div>
-          </div>
-          <br />
-        </li>
-        <li>
-          <br />
-          <img id="LiderSurge" src="..\imagens\Surge.png" />
-          <div class="textoPikachu">
-            <p>Lider: Surge</p>
-            <p>Especialidade: Eletrico</p>
+<body>
+  <header>
+    <img src="..\imagens\Mundo nintendo.png" alt="logo mundo Nintendo" />
+  </header>
+  <script src="./turtwig.js"></script>
 
-            <br />
-          </div>
-        </li>
-      </ul>
+  <main class="container">
+    <p>Ataque terrestre é super efetivo,contra eletrico</p>
+    <p>
+      Pikachu esta fora de combate, Turtwig venceu com isso ganhou 3200 pontos
+      de experiencia
+    </p>
 
-      <div>
-        <button class="botaoParabens" onclick="EvolucaoTurtwig()">
-          Parabens,voce derrotou. <br />
-          Ir para o proximo lider
-        </button>
-      </div>
-    </main>
+    <ul class="batalha">
+      <li>
+        <br />
+        <img id="turtwig" src="..\imagens\turtwig.png" />
+        <div class="textoTurtwig">
+          <p>Nome: Turtwig</p>
+          <p>Tipo: Planta e Terrestre</p>
+          <p>Level: 10</p>
+          <p>HP: 25/50</p>
+          <div class="barraDeHPTurtwigWin"></div>
+        </div>
+        <br />
+      </li>
+      <li>
+        <br />
+        <img id="Pikachu" src=".\imagens\pikachu_derrotado.png" />
+        <div class="textoPikachu">
+          <p>Nome: Pikachu</p>
+          <p>Tipo: Eletrico</p>
+          <p>Level: 10</p>
+          <p>HP: 0/45</p>
+          <div class="barraDeHPPikachuLose"></div>
+        </div>
+        <br />
+      </li>
+      <li>
+        <br />
+        <img id="LiderSurge" src="..\imagens\Surge.png" />
+        <div class="textoPikachu">
+          <p>Lider: Surge</p>
+          <p>Especialidade: Eletrico</p>
 
-    <footer>
-      <img src="../imagens/rodape.png" />
-      <p class="rodape">
-        &copy; Copyright Nintendo e Pokemon company - 2022 - Desenvolvido por
-        Giovanni Clayton - T13 - grupo 7
-      </p>
-      <div class="redes">
-        <a href="https://github.com/Gclayton0207" target="_blank"
-          ><img src="../imagens/github.png"
-        /></a>
-        <a
-          href="https://www.linkedin.com/in/giovanni-clayton-dias-alves-53195649/"
-          target="_blank"
-          ><img src="../imagens/linkedin.png"
-        /></a>
-      </div>
-    </footer>
-  </body>
+          <br />
+        </div>
+      </li>
+    </ul>
+
+    <div>
+      <button class="botaoParabens" onclick="EvolucaoTurtwig()">
+        Parabéns,você derrotou! <br> Ir para o próximo líder</button>
+    </div>
+  </main>
+
+  <footer>
+    <img src="../imagens/rodape.png" />
+    <p class="rodape">
+      &copy; Copyright Nintendo e Pokemon company - 2022 - Desenvolvido por
+      Giovanni Clayton - T13 - grupo 7
+    </p>
+    <div class="redes">
+      <a href="https://github.com/Gclayton0207" target="_blank"><img src="../imagens/github.png" /></a>
+      <a href="https://www.linkedin.com/in/giovanni-clayton-dias-alves-53195649/" target="_blank"><img
+          src="../imagens/linkedin.png" /></a>
+    </div>
+  </footer>
+</body>
+
 </html>
