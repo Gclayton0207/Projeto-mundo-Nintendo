@@ -41,7 +41,7 @@ function AvancarGiovanni() {
 function VsGiovanni(ataque) {
   var ataque = prompt("Agua ou Aço");
   if (ataque == "Agua") {
-    return (location = "./Vitoria_Giovanni.html");
+    return (location = "./Vitoria_giovanni.html");
   } else if (ataque == "Aço") {
     return (location = "./gameover_giovanni.html");
   } else {
