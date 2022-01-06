@@ -1,0 +1,120 @@
+body {
+  font-family: "Comfortaa", cursive;
+  background-image: url(./imagens/background_selecao.png);
+  background-size: cover;
+  color: whitesmoke;
+}
+header {
+  background-color: #142168;
+  padding: 20px;
+}
+main > p {
+  font-size: 30px;
+  padding: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.textoPiplup {
+  font-size: 25px;
+  padding: 1em;
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+}
+.textoChimchar {
+  font-size: 25px;
+  padding: 0.5em;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+.textoTurtwig {
+  font-size: 25px;
+  padding: 1em;
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+.pokemons li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  font-weight: bold;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button_turtwig {
+  width: 100%;
+  font-size: 30px;
+  font-family: "Acme", sans-serif;
+  color: whitesmoke;
+  border-radius: 20px;
+  align-items: center;
+  background-color: green;
+}
+.button_chimchar {
+  width: 100%;
+  font-size: 30px;
+  font-family: "Acme", sans-serif;
+  color: whitesmoke;
+  border-radius: 20px;
+  align-items: center;
+  background-color: red;
+}
+.button_piplup {
+  width: 100%;
+  font-size: 30px;
+  font-family: "Acme", sans-serif;
+  color: whitesmoke;
+  border-radius: 20px;
+  align-items: center;
+  background-color: blue;
+}
+.pokemons li:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+button :hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+#turtwig,
+#chimchar,
+#piplup {
+  width: 250px;
+  height: 280px;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  background: #000000;
+  padding: 20px 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+.rodape {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+.sociais {
+  display: flex;
+  justify-content: center;
+}
+.sociais img {
+  height: 50px;
+  margin: 10px 10px;
+}
