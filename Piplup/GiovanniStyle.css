@@ -1,182 +1,182 @@
 header {
-    background-color: #142168;
-    padding: 20px;
+  background-color: #142168;
+  padding: 20px;
 }
 
 body {
-    background-image: url(imagens/VsGiovanni_background.png);
-    background-repeat: no-repeat;
-    Background-size: cover;
-    font-family: "Comfortaa", cursive;
+  background-image: url(imagens/VsGiovanni_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Comfortaa", cursive;
 }
 
-main>p {
-    font-size: 40px;
-    padding: 0.5em;
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    background-color: rgba(253, 253, 253, 0.514);
+main > p {
+  font-size: 40px;
+  padding: 0.5em;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  background-color: rgba(253, 253, 253, 0.514);
 }
 
 .batalha li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 1.5% 1.5%;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 1.5% 1.5%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-weight: bold;
 }
 
 .textoPiplup {
-    font-size: 35px;
-    padding: 1em;
-    color: rgb(0, 0, 255);
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.801);
-    border: 5px solid rgb(0, 0, 255);
+  font-size: 35px;
+  padding: 1em;
+  color: rgb(0, 0, 255);
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.801);
+  border: 5px solid rgb(0, 0, 255);
 }
 
 .textoNidoking {
-    font-size: 35px;
-    padding: 1em;
-    color: #D0B569;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.500);
-    border: 5px solid #D0B569;
+  font-size: 35px;
+  padding: 1em;
+  color: #d0b569;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px solid #d0b569;
 }
 
 #Piplup,
 #LiderGiovanni {
-    width: 250px;
-    height: 280px;
-    margin: 1em 1em;
-    align-items: center;
+  width: 250px;
+  height: 280px;
+  margin: 1em 1em;
+  align-items: center;
 }
 
 #Nidoking {
-    width: 300px;
-    height: 280px;
-    margin: 1em 1em;
-    align-items: center;
+  width: 300px;
+  height: 280px;
+  margin: 1em 1em;
+  align-items: center;
 }
 
 .barraDeHPPiplup {
-    display: flex;
-    height: 50px;
-    padding: 5px;
-    background-color: #4cfd289d;
-    border-radius: 25px;
+  display: flex;
+  height: 50px;
+  padding: 5px;
+  background-color: #4cfd289d;
+  border-radius: 25px;
 }
 
 .barraDeHPNidoking {
-    display: flex;
-    height: 50px;
-    padding: 5px;
-    background-color: #4cfd289d;
-    border-radius: 25px;
+  display: flex;
+  height: 50px;
+  padding: 5px;
+  background-color: #4cfd289d;
+  border-radius: 25px;
 }
 
 .barraDeHPPiplupWin {
-    display: flex;
-    height: 50px;
-    padding: 5px;
-    width: 50%;
-    background-color: rgba(245, 241, 30, 0.856);
-    border-radius: 25px;
+  display: flex;
+  height: 50px;
+  padding: 5px;
+  width: 50%;
+  background-color: rgba(245, 241, 30, 0.856);
+  border-radius: 25px;
 }
 
 .barraDeHPNidokingWin {
-    display: flex;
-    height: 50px;
-    padding: 5px;
-    width: 50%;
-    background-color: rgba(245, 241, 30, 0.856);
-    border-radius: 25px;
+  display: flex;
+  height: 50px;
+  padding: 5px;
+  width: 50%;
+  background-color: rgba(245, 241, 30, 0.856);
+  border-radius: 25px;
 }
 
 .barraDeHPPiplupLose {
-    display: flex;
-    height: 50px;
-    padding: 5px;
-    width: 100%;
-    background-color: rgba(187, 187, 185, 0.856);
-    border-radius: 25px;
+  display: flex;
+  height: 50px;
+  padding: 5px;
+  width: 100%;
+  background-color: rgba(187, 187, 185, 0.856);
+  border-radius: 25px;
 }
 
 .barraDeHPNidokingLose {
-    display: flex;
-    height: 50px;
-    padding: 5px;
-    width: 100%;
-    background-color: rgba(187, 187, 185, 0.856);
-    border-radius: 25px;
+  display: flex;
+  height: 50px;
+  padding: 5px;
+  width: 100%;
+  background-color: rgba(187, 187, 185, 0.856);
+  border-radius: 25px;
 }
 
 .botaoPiplup {
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    color: white;
-    border-radius: 5px;
-    align-items: center;
-    background-color: blue;
-    border-color: whitesmoke;
-    cursor: pointer;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  align-items: center;
+  background-color: blue;
+  border-color: whitesmoke;
+  cursor: pointer;
 }
 
 .botaoTenteNovamente {
-    display: block;
-    width: 280px;
-    height: 150px;
-    margin: 2em auto;
-    font-size: 35px;
-    color: white;
-    border-radius: 5px;
-    background-color: black;
-    border-color: whitesmoke;
-    cursor: pointer;
+  display: block;
+  width: 280px;
+  height: 150px;
+  margin: 2em auto;
+  font-size: 35px;
+  color: white;
+  border-radius: 5px;
+  background-color: black;
+  border-color: whitesmoke;
+  cursor: pointer;
 }
 
 .botaoParabens {
-    display: block;
-    margin: 2em auto;
-    width: 280px;
-    height: 180px;
-    font-size: 35px;
-    color: white;
-    border-radius: 5px;
-    background-color: blue;
-    border-color: whitesmoke;
-    cursor: pointer;
+  display: block;
+  margin: 2em auto;
+  width: 280px;
+  height: 180px;
+  font-size: 35px;
+  color: white;
+  border-radius: 5px;
+  background-color: blue;
+  border-color: whitesmoke;
+  cursor: pointer;
 }
 
 footer {
-    margin-top: 2em;
-    text-align: center;
-    background: #000000;
-    padding: 20px 0;
-    bottom: 0;
-    width: 100%;
+  margin-top: 2em;
+  text-align: center;
+  background: #000000;
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .rodape {
-    color: #FFFFFF;
-    font-size: 1em;
-    margin: 20px 0 0;
+  color: #ffffff;
+  font-size: 1em;
+  margin: 20px 0 0;
 }
 
 .redes {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .redes img {
-    height: 50px;
-    margin: 10px 10px;
+  height: 50px;
+  margin: 10px 10px;
 }

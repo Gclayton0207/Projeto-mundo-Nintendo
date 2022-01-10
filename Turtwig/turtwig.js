@@ -53,6 +53,7 @@ function VsMisty(ataque) {
 function EvolucaoGrotle() {
   return (location = "./evolucaoGrotle.html");
 }
+
 function AvancarSiebold() {
   return (location = "./VsSiebold.html");
 }
